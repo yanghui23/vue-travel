@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+      <!-- 当前路由所对应的组件: 例如当前路由为 /list , 那么对应的组件就是 list/List.vue -->
     <router-view/>
   </div>
 </template>
@@ -16,8 +16,5 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
