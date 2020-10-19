@@ -11,6 +11,13 @@ import 'styles/border.css'
 import 'styles/iconfont.css'
 import 'swiper/swiper-bundle.css'
 
+// 若是没有开启Devtools工具，在开发环境中开启，在生产环境中关闭
+// if (process.env.NODE_ENV === 'development') {
+//   Vue.config.devtools = true
+// } else {
+//   Vue.config.devtools = false
+// }
+
 Vue.config.productionTip = false
 fastClick.attach(document.body)
 Vue.use(VueAwesomeSwiper /* { default options with global component } */)
