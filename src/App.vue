@@ -1,7 +1,9 @@
 <template>
   <div id="app">
+    <keep-alive>
       <!-- 当前路由所对应的组件: 例如当前路由为 /list , 那么对应的组件就是 list/List.vue -->
-    <router-view/>
+      <router-view/>
+    </keep-alive>
   </div>
 </template>
 
