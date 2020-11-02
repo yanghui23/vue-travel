@@ -9,7 +9,7 @@
     </div>
     <router-link to="/city">
       <div class="header-right">{{this.city}}
-        <span class="iconfont arrow-icon">&#xe64a;</span>
+        <span class="iconfont arrow-icon">&#xe60b;</span>
       </div>
     </router-link>
   </div>
