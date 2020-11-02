@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <keep-alive>
+    <keep-alive exclude="Detail">
       <!-- 当前路由所对应的组件: 例如当前路由为 /list , 那么对应的组件就是 list/List.vue -->
       <router-view/>
     </keep-alive>
